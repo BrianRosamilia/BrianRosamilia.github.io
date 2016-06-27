@@ -1,0 +1,57 @@
+html {
+    background:linear-gradient(150deg, #79C7FF 0%, #7194FF 51%, #33FCFF 75%);
+}
+
+ul {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+body {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+footer {
+    font-size: 1rem;
+    color: #999;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+p {
+    margin-left: 2rem;
+}
+
+.logo{
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    padding-right:1rem;
+}
+
+.tool{
+    display:inline-block;
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right:1rem;
+}
+
+.title{
+    font-weight:bold;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 40rem;
+    background-color:white;
+    padding-left:2rem;
+    padding-top:.5rem;
+}
+
