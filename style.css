@@ -1,10 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
 html {
+
     background:linear-gradient(150deg, #79C7FF 0%, #7194FF 51%, #33FCFF 75%);
 }
 
 ul {
     list-style-type: none;
     list-style-image: none;
+}
+
+li{
+    padding-bottom:1.5rem;
 }
 
 body {
@@ -15,6 +22,16 @@ body {
 footer {
     font-size: 1rem;
     color: #999;
+}
+
+h2 {
+    margin-top:1rem;
+    padding-bottom:.5rem;
+}
+
+h2{
+    margin-top:1.5rem;
+    padding-bottom:1rem;
 }
 
 h3 {
@@ -30,7 +47,8 @@ p {
     width: auto;
     max-width: 200px;
     max-height: 200px;
-    padding-right:1rem;
+    margin-left:1rem;
+    margin-bottom:.75rem;
 }
 
 .tool{
@@ -51,7 +69,8 @@ p {
     margin: 0 auto;
     min-height: 40rem;
     background-color:white;
-    padding-left:2rem;
-    padding-top:.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-bottom:1rem;
 }
 
