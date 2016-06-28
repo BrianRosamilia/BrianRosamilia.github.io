@@ -1,8 +1,11 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
-
-    background:linear-gradient(150deg, #79C7FF 0%, #7194FF 51%, #33FCFF 75%);
+    background: linear-gradient(150deg, #79C7FF 0%, #7194FF 51%, #33FCFF 75%);
 }
 
 ul {
@@ -10,8 +13,8 @@ ul {
     list-style-image: none;
 }
 
-li{
-    padding-bottom:1.5rem;
+li {
+    padding-bottom: 1.5rem;
 }
 
 body {
@@ -26,48 +29,53 @@ footer {
 
 h2 {
     font-size: xx-large;
-    padding-top:.5rem;
-    padding-bottom:1rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
 }
 
-h3{
-    margin-top:1.5rem;
-    padding-bottom:1rem;
+h3 {
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 p {
     margin-left: 2rem;
 }
 
-.logo{
+.logo {
     height: auto;
     width: auto;
     max-width: 200px;
     max-height: 200px;
-    margin-left:1rem;
-    margin-bottom:.75rem;
+    margin-left: 1rem;
+    margin-bottom: .75rem;
 }
 
-.tool{
-    display:inline-block;
+.tool {
+    display: inline-block;
     height: auto;
     width: auto;
     max-width: 100px;
     max-height: 100px;
-    margin-right:1rem;
+    margin-right: 1rem;
 }
 
-.title{
-    font-weight:bold;
+.title {
+    font-weight: bold;
 }
 
 #main {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     min-height: 40rem;
-    background-color:white;
-    padding-left:1rem;
-    padding-right:1rem;
-    padding-bottom:1rem;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
+@media (max-width: 1000px) {
+    #main{
+        width:100%;
+    }
+}
