@@ -5,5 +5,5 @@ var quotes = ['hey its me ur brother',
     'the wind is still rising'];
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('#footer').innerHTML += "\"" + quotes[Math.floor(Math.random() * quotes.length)] + "\""
+    document.querySelector('#footer').textContent += "\"" + quotes[Math.floor(Math.random() * quotes.length)] + "\""
 });
