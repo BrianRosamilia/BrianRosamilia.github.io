@@ -5,7 +5,7 @@
 }
 
 html {
-    background: linear-gradient(150deg, #79C7FF 0%, #7194FF 51%, #33FCFF 75%);
+    background: linear-gradient(150deg, #79C7FF22 0%, #7194FF22 51%, #609FCC22 75%);
 }
 
 ul {
@@ -31,7 +31,7 @@ footer {
     color: #999;
 }
 
-h2 {
+h1 {
     font-size: xx-large;
     padding-top: .5rem;
     padding-bottom: 1rem;
