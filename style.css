@@ -5,12 +5,20 @@
 }
 
 html {
-    background: linear-gradient(150deg, #79C7FF22 0%, #7194FF22 51%, #609FCC22 75%);
+    background-color:#A9A9A9;
 }
 
 ul {
     list-style-type: none;
     list-style-image: none;
+}
+
+ul.projects li{
+	margin-top:.8rem;
+}
+
+ul.professional li{
+	margin-bottom:.8rem;
 }
 
 li {
@@ -69,6 +77,10 @@ p {
     font-weight: bold;
 }
 
+.software{
+	margin-top:.75rem;
+}
+
 .icon{
 	max-width: 40px;
     max-height: 40px;
@@ -77,7 +89,7 @@ p {
 }
 
 #main {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     min-height: 40rem;
     background-color: white;
