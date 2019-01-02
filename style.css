@@ -22,6 +22,10 @@ html {
 	border-radius: .2rem;
 }
 
+.photo{
+	border-radius:.42rem;
+}
+
 .intro{
 	margin-left:2rem;
 	padding-top:1.5rem;
