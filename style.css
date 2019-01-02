@@ -18,7 +18,8 @@ html {
     padding-bottom: 1rem;
 	margin-top:1.5rem;
 	margin-bottom:2rem;
-	box-shadow: 10px 10px #888;
+	box-shadow: 15px 12px 6px #88888855;
+	border-radius: .2rem;
 }
 
 .intro{
@@ -61,7 +62,7 @@ footer {
 h1 {
     font-size: xx-large;
     padding-top: .5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.7rem;
 }
 
 h3 {
@@ -114,6 +115,10 @@ p {
 	
 	.intro{
 		padding-top:.5rem;
+	}
+	
+	h1{
+		padding-bottom:1rem;
 	}
 
     h2 {
