@@ -22,8 +22,33 @@ html {
 	border-radius: .2rem;
 }
 
+.flex-header{
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.email{
+	cursor:pointer;
+}
+
+.email-brian{
+	font-size:1.2rem;
+	vertical-align: middle;
+	opacity: 0;
+	display:none;
+	padding-bottom:.8rem;
+	font-weight:bold;
+}
+
 .photo{
 	border-radius:.42rem;
+}
+
+.contact{
+	margin-left:auto;
+	display:inline-block;
+	font-size:4rem;
 }
 
 .intro{
@@ -49,8 +74,12 @@ li {
 	margin-left:2rem;
 }
 
-.socialMedia a{
+.social-media a{
     text-decoration:none;
+}
+
+.social-media{
+	min-width:250px;
 }
 
 body {
@@ -67,6 +96,7 @@ h1 {
     font-size: xx-large;
     padding-top: .5rem;
     padding-bottom: 1.7rem;
+	min-width:300px;
 }
 
 h3 {
@@ -76,6 +106,10 @@ h3 {
 
 p {
     margin-left: 2.5rem;
+}
+
+.no-select{
+	user-select:none;
 }
 
 .logo {
